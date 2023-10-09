@@ -3,7 +3,7 @@
             Funcionalidade: Tela de Cadastro - Checkout
             Como cliente da EBAC-SHOP
             Quero fazer concluir meu cadastro
-            Para finalizar minha compra
+            Para finalizar minhas compras
 
             Contexto:
             Dado que preencha o cadastro do Usuário
