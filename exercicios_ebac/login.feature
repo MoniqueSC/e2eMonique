@@ -40,14 +40,3 @@
             | "moniquesantiago@ebac.com" |
             | "joao12@ebac.com"          |
             | "gui@ebac.com"             |
-
-            Esquema do Cenário: Usuário e senha inválido
-            Quando digitar o <e-mail>
-            E a <senha>
-            Então valido a mensagem "Usuário ou senha inválidos"
-
-            Exemplos:
-            | e-mail                     | senha           |
-            | "moniquesantiago@ebac.com" | "monique1234"   |
-            | "joao12@ebac.com"          | "o1234"         |
-            | "gui@ebac.com"             | "guilherme1234" |

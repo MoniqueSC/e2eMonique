@@ -18,32 +18,20 @@
             | "Monique" | "Santiago" | "Brasil" | "Rua 123" | "Santos" | 115550 | 1354559654 | monique@ebac.com |
 
             Esquema do Cenário: Email inválido
-            E preencho <nome> <sobrenome> <pais> <endereco> <cidade> <cep> <telefone> <email>
+            E preencho <email>
             Quando clicar em salvar
             Então valido a <mensagem> "Formato email invalido"
 
             Exemplos:
-            | nome | sobrenome | pais | endereco | cidade | cep | telefone | email           | 
-            | ""   | ""        | ""   | ""       | ""     | ""  | ""       | "Teste"         |
-            | ""   | ""        | ""   | ""       | ""     | ""  | ""       | "Teste@"        |
-            | ""   | ""        | ""   | ""       | ""     | ""  | ""       | "Teste@."       |
-            | ""   | ""        | ""   | ""       | ""     | ""  | ""       | "Teste@gmail"   |
-            | ""   | ""        | ""   | ""       | ""     | ""  | ""       | "Teste@gmail.A" |
-            | ""   | ""        | ""   | ""       | ""     | ""  | ""       | "Teste@gm15l"   |
-            | ""   | ""        | ""   | ""       | ""     | ""  | ""       | "Teste!gm15l"   |
+               email         | 
+            |  "Teste"       |
+            |  "Teste@"      |
+            |  "Teste@."     |
+            |  "Teste@gmail" |
+            | "Teste@gmail.A"|
+            | "Teste@gm15l"  |
+            |  "Teste!gm15l" |
 
             Esquema do Cenário: Cadastro incompleto
-            E preencho <nome> <sobrenome> <pais> <endereco> <cidade> <cep> <telefone> <email>
-            Quando clicar em salvar
-            Então valido a mensagem "Campos não preenchidos"
-
-            Exemplos:
-            | nome      | sobrenome  | pais     | endereco  | cidade   | cep      | telefone     | email              | 
-            | ""        | "Santiago" | "Brasil" | "Rua 123" | "Santos" | "115550" | "1354559654" | "monique@ebac.com" | 
-            | "Monique" | ""         | "Brasil" | "Rua 123" | "Santos" | "115550" | "1354559654" | "monique@ebac.com" | 
-            | "Monique" | "Santiago" | ""       | "Rua 123" | "Santos" | "115550" | "1354559654" | "monique@ebac.com" | 
-            | "Monique" | "Santiago" | "Brasil" | ""        | "Santos" | "115550" | "1354559654" | "monique@ebac.com" |
-            | "Monique" | "Santiago" | "Brasil" | "Rua 123" | ""       | "115550" | "1354559654" | "monique@ebac.com" |
-            | "Monique" | "Santiago" | "Brasil" | "Rua 123" | "Santos" | ""       | "1354559654" | "monique@ebac.com" |
-            | "Monique" | "Santiago" | "Brasil" | "Rua 123" | "Santos" | "115550" | ""           | "monique@ebac.com" |
-            | "Monique" | "Santiago" | "Brasil" | "Rua 123" | "Santos" | "115550" | "1354559654" | ""                 |
+            Quando  deixar de preencher algum campo obrigatório
+            Então valido a mensagem "Campos não preenchidos."
