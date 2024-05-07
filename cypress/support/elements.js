@@ -2,6 +2,8 @@ export const ELEMENTS = {
     sessaoComprar: '#primary-menu > .menu-item-629 > a',
     barraDeBusca: '.search > .tbay-search-form > .form-ajax-search > .form-group > .input-group > .tbay-search',
     botaoProcurar: '.search > .tbay-search-form > .form-ajax-search > .form-group > .input-group > .button-group > .button-search',
+    tamanhoDoProduto: '.button-variable-item-',
+    corDoProduto: '.button-variable-item-',
     selecionarTamanhoXs: '.button-variable-item-XS',
     selecionarTamanho32: '.button-variable-item-32',
     selecionarCorAzul: '.button-variable-item-Blue',

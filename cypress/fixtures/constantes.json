@@ -1,6 +1,6 @@
 {
   "site": "http://lojaebac.ebaconline.art.br/",
-  "produto1": "Abominable Hoodie",
+  "produto1": "Augusta Pullover Jacket",
   "produto2": "Aero Daily Fitness Tee",
   "produto3": "Aether Gym Pant",
   "produto4": "Argus All-Weather Tank",
@@ -8,5 +8,7 @@
   "estados": "São Paulo",
   "cep": "11045145",
   "numeroTelefone": "13996557483",
-  "msgPedidoConcluido": "Obrigado. Seu pedido foi recebido."
+  "msgPedidoConcluido": "Obrigado. Seu pedido foi recebido.",
+  "TamanhoXS": "XS",
+  "CorBlue": "Blue"
 }
